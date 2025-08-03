@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react'
-import { VirtualScrollObserver, VirtualScrollObserverHandle } from 'virtual-scroll-component/react'
+import { VirtualScrollObserver, VirtualScrollObserverHandle } from '../../../src/react/VirtualScrollObserver'
 
 interface Item {
   id: number

@@ -1,6 +1,6 @@
 {
   "name": "virtual-scroll-component",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A virtual scroll component for Vue 3 and React 18",
   "type": "module",
   "main": "./dist/index.js",
@@ -16,7 +16,7 @@
       "require": "./dist/vue.cjs"
     },
     "./react": {
-      "import": "./dist/react.js", 
+      "import": "./dist/react.js",
       "require": "./dist/react.cjs"
     }
   },
@@ -25,7 +25,11 @@
     "build": "vite build",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "dev:vue": "pnpm --filter vue-demo dev",
+    "dev:react": "pnpm --filter react-demo dev",
+    "install:all": "pnpm install",
+    "build:all": "pnpm run build && pnpm --filter vue-demo build && pnpm --filter react-demo build"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

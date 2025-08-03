@@ -41,7 +41,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import VirtualScroll from 'virtual-scroll-component/vue'
+import VirtualScroll from '../../../src/vue/VirtualScroll.vue'
 
 const virtualScrollRef = ref<InstanceType<typeof VirtualScroll>>()
 const visibleStart = ref(0)

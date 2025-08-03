@@ -7,3 +7,15 @@ coverage
 .env
 .env.local
 .env.*.local
+
+# pnpm
+pnpm-lock.yaml
+
+# npm (not used, prefer pnpm)
+package-lock.json
+npm-debug.log*
+
+# yarn (not used, prefer pnpm)
+yarn.lock
+yarn-debug.log*
+yarn-error.log*

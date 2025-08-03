@@ -49,7 +49,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { VirtualScrollObserver } from 'virtual-scroll-component/vue'
+import VirtualScrollObserver from '../../../src/vue/VirtualScrollObserver.vue'
 
 const virtualScrollRef = ref<InstanceType<typeof VirtualScrollObserver>>()
 const visibleIndices = ref<number[]>([])
