@@ -1,6 +1,8 @@
 export { VirtualScroll } from './VirtualScroll'
 export { VirtualScrollObserver } from './VirtualScrollObserver'
 export { VirtualScrollOptimized } from './VirtualScrollOptimized'
+export { VirtualScrollObserverOptimized } from './VirtualScrollObserverOptimized'
 export type { VirtualScrollProps, VirtualScrollHandle } from './VirtualScroll'
 export type { VirtualScrollObserverProps, VirtualScrollObserverHandle } from './VirtualScrollObserver'
 export type { VirtualScrollOptimizedProps, VirtualScrollOptimizedHandle } from './VirtualScrollOptimized'
+export type { VirtualScrollObserverOptimizedProps, VirtualScrollObserverOptimizedHandle } from './VirtualScrollObserverOptimized'

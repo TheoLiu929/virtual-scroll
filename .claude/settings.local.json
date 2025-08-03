@@ -5,7 +5,8 @@
       "Bash(npm install)",
       "Bash(rm:*)",
       "Bash(find:*)",
-      "Bash(pnpm install:*)"
+      "Bash(pnpm install:*)",
+      "Bash(npm install:*)"
     ],
     "deny": []
   }
